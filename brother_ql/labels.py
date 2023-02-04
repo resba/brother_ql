@@ -105,6 +105,7 @@ ALL_LABELS = (
   Label("d24",    ( 24,  24), FormFactor.ROUND_DIE_CUT, ( 284,  284), ( 236,  236),  42 ),
   Label("d58",    ( 58,  58), FormFactor.ROUND_DIE_CUT, ( 688,  688), ( 618,  618),  51 ),
   Label("pt24",   ( 24,   0), FormFactor.PTOUCH_ENDLESS,( 128,    0), ( 128,    0),   0, feed_margin=14),
+  Label("pt24-360", ( 24, 0), FormFactor.PTOUCH_ENDLESS, ( 256, 0), ( 234, 0), 171 , feed_margin=14, restricted_to_models=['PT-P950NW']),
 )
 
 class LabelsManager(ElementsManager):
